@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+/* ----------------------------------- */
+/* General Section - Reusable */
+/* ----------------------------------- */
+.heading__primary{
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+.btn:link,
+.btn:visited {
+    font-size: 2rem;
+    color: #fff;
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 1.0rem;
+    transition: background-color 0.3s; /* Always put it in original state */
+}
+.btn--full:link,
+.btn--full:visited {
+    background-color: #e67e22;
+}
+.btn--full:hover,
+.btn--full:active {
+    background-color: #cf711f;
+
+}
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #fff;
+    color: #555;
+}
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: #fdf2e9;
+    box-shadow: inset 0 0 0 3px #fff; /*Trick to add border inside */
+}
+.margin-right-sm {
+    margin-right: 1.6rem;
+}
+/* ----------------------------------- */
+/* Header */
+/* ----------------------------------- */
+.header {
+    display: flex;
+    background-color: #fdf2e9;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem; /*Because we want it to be sticky later */
+    padding: 0 4.8rem;
+}
+.logo {
+    height: 2.2rem;
+}
+.main-nav__list {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+.main-nav__link:link,
+.main-nav__link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.main-nav__link:hover,
+.main-nav__link:active {
+    color: #cf711f;
+}
+.main-nav__link.nav--cta:link,
+.main-nav__link.nav--cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    display: inline-block;
+    background-color: #cf711f;
+}
+.main-nav__link.nav--cta:hover,
+.main-nav__link.nav--cta:active {
+    background-color: #cf711f;
+}
+
+/* ----------------------------------- */
+/* Hero Section */
+/* ----------------------------------- */
+.section__hero {
+    background-color: #fdf2e9;
+    padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+}
+.hero__description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+.hero__img {
+    width: 100%;
+}
+.delivered__meals {
+    display: flex;
+    align-items: center;
+    margin-top: 8.0rem;
+    gap: 1.6rem;
+}
+.delivered__images {
+    display: flex;
+}
+.delivered__images img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+.delivered__images img:last-child {
+    margin: 0;
+}
+.delivered__text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.delivered__text span {
+    color: #cf711f;
+}
