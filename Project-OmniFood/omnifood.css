@@ -13,55 +13,11 @@ body {
     color: #555;
 }
 /* ----------------------------------- */
-/* General Section - Reusable */
-/* ----------------------------------- */
-.heading__primary{
-    font-size: 5.2rem;
-    font-weight: 700;
-    line-height: 1.05;
-    color: #333;
-    letter-spacing: -0.5px;
-    margin-bottom: 3.2rem;
-}
-.btn:link,
-.btn:visited {
-    font-size: 2rem;
-    color: #fff;
-    display: inline-block;
-    padding: 1.6rem 3.2rem;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 1.0rem;
-    transition: background-color 0.3s; /* Always put it in original state */
-}
-.btn--full:link,
-.btn--full:visited {
-    background-color: #e67e22;
-}
-.btn--full:hover,
-.btn--full:active {
-    background-color: #cf711f;
-
-}
-.btn--outline:link,
-.btn--outline:visited {
-    background-color: #fff;
-    color: #555;
-}
-.btn--outline:hover,
-.btn--outline:active {
-    background-color: #fdf2e9;
-    box-shadow: inset 0 0 0 3px #fff; /*Trick to add border inside */
-}
-.margin-right-sm {
-    margin-right: 1.6rem;
-}
-/* ----------------------------------- */
 /* Header */
 /* ----------------------------------- */
 .header {
     display: flex;
-    background-color: #fdf2e9;
+    background-color: #f8d8bd;
     justify-content: space-between;
     align-items: center;
     height: 9.6rem; /*Because we want it to be sticky later */
@@ -106,7 +62,7 @@ body {
 /* Hero Section */
 /* ----------------------------------- */
 .section__hero {
-    background-color: #fdf2e9;
+    background-color: #f8d8bd;
     padding: 4.8rem 0 9.6rem 0;
 }
 .hero {
@@ -140,7 +96,7 @@ body {
     width: 4.8rem;
     border-radius: 50%;
     margin-right: -1.6rem;
-    border: 3px solid #fdf2e9;
+    border: 3px solid #f8d8bd;
 }
 .delivered__images img:last-child {
     margin: 0;
@@ -151,4 +107,74 @@ body {
 }
 .delivered__text span {
     color: #cf711f;
+}
+/* ----------------------------------- */
+/* Featured in section */
+/* ----------------------------------- */
+.section__featured {
+    padding: 4.8rem 0;
+}
+.heading__featured{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    text-align:center;
+    margin-bottom: 2.4rem;
+    margin-top: 4.8rem;
+}
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+.logos img {
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 50%;
+}
+/* ----------------------------------- */
+/* How it Works */
+/* ----------------------------------- */
+.section__how {
+    padding: 9.6rem 0;
+}
+.step__number {
+    font-size: 8.6rem;
+    font-weight: 600;
+    color: #b3b3b3;
+    margin-bottom: 1.2rem;
+}
+.step__description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.step__image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.step__image-box::before,
+.step__image-box::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.step__image-box::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #f8d8bd;
+    z-index: -1;
+}
+.step__image-box::after {
+    width: 50%;
+    padding-bottom: 50%;
+    background-color: #f5cba7;
+    z-index: -1;
+}
+.step__img {
+    width: 35%;
 }
