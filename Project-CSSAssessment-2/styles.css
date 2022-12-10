@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: #000000;
+    color: #ffffff;     
+}
+/* logo */
+div img{
+    height:auto;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+/* navbar  */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 48px;
+}
+.navbar{
+    display: flex;
+}
+.grow-list {
+    justify-content: center;
+    align-items: space-between;
+    padding: 20px 40px;
+}
+.grow-list .list {
+    display: flex;
+    color: black;
+    padding-left: 4px;
+}
+.list-item{
+    text-decoration: none;
+    padding-left: 4px;
+}
+.list li {
+    text-decoration: none;
+    color: #b7b5b5;
+    align-items: start;
+    padding: 10px 20px;
+}
+.line{
+    border: 1px solid #ffffff;
+    position: relative;
+    left: 20px;
+    height: 50px;
+}
+button{
+    background-color: #aa258f;
+    border-radius: 5px;
+    padding:15px 40px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer; 
+}
+.button-small{
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* Main or Hero Section  */
+
+/* bg image  */
+.hero{
+    height: 90vh;
+    width: 100vw;
+    background-image: url("images/background-image.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    
+}
+.hero-heading{
+    margin-top: 70px;
+    font-size: 65px;
+    height: 30vh;
+    width: 50vw;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.hero-description{
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 30%;
+    position: relative;
+    bottom: 10%;
+   
+}
+.button-large{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    bottom: 33%;
+    border-radius: 15px;
+}
