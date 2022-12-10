@@ -15,8 +15,8 @@ Omnifood is an AI-powered food subscriptions that will make you eat healthy agai
 ## 📌 Overview
 **YouTube URL:** <a href="https://youtu.be/kSLj3TD4J3o" target="_blank">**Watch Now** 🚀</a>  
 <br>
-![Screenshot](/screenshots/hero-section.jpg?raw=true "Hero Section Of Website")
-![Screenshot](/screenshots/call-to-action-section.jpg?raw=true "Call To Action Section")
+![Hero Section](https://github.com/mounikaperi/css-project-assignments/blob/main/Project-OmniFood/screenshots/hero-section.jpg "Hero Section of Website")
+![Call to Action Section](https://github.com/mounikaperi/css-project-assignments/blob/main/Project-OmniFood/screenshots/call-to-action-section.jpg "Call to Action Section of Website")
 
 ## 📌 Learnings and Insights - What have I learnt?
 ## Web design principles 
