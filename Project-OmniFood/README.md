@@ -1,43 +1,49 @@
 ## ⭐ Omnifood-Never Cook Again ⭐
-A Food Delivery AI Startup's **Fully Responsive** website, built using **HTML5, CSS3, and JavaScript.**
-<br>
-<br>
-
-## 📌 **Live Site URL:** <a href="https://omnifood-ai-startup.netlify.app/" target="_blank">**Visit Now** 🚀</a>  
+Omnifood is an AI-powered food subscriptions that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.<br>
 <br>
 
+## 📌 **Live Site URL:
+** <a href="https://saimounikas-foodstartup-omnifood.netlify.app/" target="_blank">**Visit Now** 🚀</a>  
+<br>
 
 ## 📌 Tech Stack
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/prakash-naikwadi)&nbsp;
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/prakash-naikwadi)&nbsp;
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/prakash-naikwadi)
+[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/mounikaperi)&nbsp;
+[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/mounikaperi)&nbsp;
+[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/mounikaperi)
 <br>
 <br>
-
 ## 📌 Overview
-**YouTube URL:** <a href="https://youtu.be/Xku3ypsSTIw" target="_blank">**Watch Now** 🚀</a>  
+**YouTube URL:** <a href="https://youtu.be/kSLj3TD4J3o" target="_blank">**Watch Now** 🚀</a>  
 <br>
-![Screenshot](/screenshots/hero-section.jpg?raw=true "Hero Section Of Website")
-![Screenshot](/screenshots/call-to-action-section.jpg?raw=true "Call To Action Section")
+![Hero Section](https://github.com/mounikaperi/css-project-assignments/blob/main/Project-OmniFood/screenshots/hero-section.jpg "Hero Section of Website")
+![Call to Action Section](https://github.com/mounikaperi/css-project-assignments/blob/main/Project-OmniFood/screenshots/call-to-action-section.jpg "Call to Action Section of Website")
 
-## 📌 My process
-- I started Udemy Course "Build Responsive Real-World Websites with HTML and CSS" by Jonas Schmedtmann.<a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/" target="_blank"> **Check🚀 (Not Sponsered)**</a>
-- I feel confident while writing CSS 👊.
-- This project has given me the confidence to build any complex layouts 👊.
-- Still, we all know that learning CSS is a never-ending process 🚫.
-
-
-## 📌 What I Learn
-👉 Web design principles.  
-👉 How to optimize the website for production.  
-👉 How to design a website from scratch.  
-👉 Responsive Design (still Kevin Powell's Responsive Web Design course is the best)  
+## 📌 Learnings and Insights - What have I learnt?
+## Web design principles 
+         👉 Implementing Typography
+         👉 Implementing Colors
+         👉 Images and Illustrations
+         👉 Shadows, border-radius, whitespaces
+         👉 Visual Hierarchy
+         👉 UI=UX Rules
+         👉 Website Personalities Framework
+## Components and Layout Patterns
+         👉 Building an Accordion
+         👉 Carousel Components
+         👉 Table Component
+         👉 Building a Pagination Component
+         👉 Building Web Application Layout
+         👉 UI=UX Rules
+         👉 Website Personalities Framework
+ 
+👉 Build Website from Scratch using HTML, CSS and JavaScript<br>
+👉 Making the website responsive for various devices(desktops, tablets, mobile devices) using responsive units and media queries<br>
+👉 How to optimize the website for production.  <br>
+👉 Testing performance of the website using Lighthouse.<br>
 
 ## 📬 Connect With Me
-- **LinkedIn** - [Prakash Naikwadi](https://www.linkedin.com/in/prakash-naikwadi/)
-- **Twitter** - [@PrakashNaikwad6](https://www.twitter.com/PrakashNaikwad6) 
+- **LinkedIn** - [Sai Mounika Peri](https://www.linkedin.com/in/saimounikaperi/)
 
 ## 📌 Acknowledgments
-- This ReadMe File Inspired From - [Jigar Sable](https://github.com/jigar-sable)
 - Course Instructor - [Jonas Schmedtmann](https://codingheroes.io/)
 - Icons Used For Tech Stack Section - [https://img.shields.io](https://img.shields.io)
