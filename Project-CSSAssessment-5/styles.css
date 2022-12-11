@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    max-width: 1440px;
+    background-color: #F0F4F5;
+    margin: auto; 
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    margin-top: 40px;
+    padding: 30px 25px;
+}
+.list-items {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+    padding-left: 600px;
+    list-style: none;
+    font-weight: 600;
+}
+.list-item:link,
+.list-item:visited {
+    list-style: none;
+    text-decoration:none;
+    font-weight: 800;
+    font-size: 15px;
+}
+.list-item:hover,
+.list-item:active {
+    color: #48b991;
+    cursor: pointer;
+}
+.first {
+    color: green;
+}
+.main__section {
+    display: grid;
+    grid-template-columns: 750px 250px;
+}
+.left__section {
+    margin-top: 50px;
+    padding: 0 30px;
+    position: relative;
+}
+.topAngle{
+    width: 25px;
+}
+.left__section h1 {
+    font-weight: bold;
+    font-size: 85px;
+}
+.left__section p {
+    margin: 25px 0;
+    padding-left: 10px;
+    color: grey;
+    font-size: 22.5px;
+    line-height: 1.5;
+}
+.left__section button{
+    color: white;
+    background-color: #48b991;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+}
+.bottomAngle{
+    width: 25px;
+    position: absolute;
+    right: 20px;
+}
+.stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    left: 25px;
+    z-index: -1;
+}
+.greenbox,  .yellowbox{
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 35%;
+    bottom: 20px;
+}
+.yellowbox{
+    width: 30%;
+    bottom: 40px;
+}
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 85%;
+}
