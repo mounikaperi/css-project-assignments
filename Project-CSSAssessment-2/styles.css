@@ -1,3 +1,5 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
 *{
     margin: 0;
     padding: 0;
@@ -9,59 +11,61 @@
 body{
     max-width: 1440px;
     background-color: #000000;
-    color: #ffffff;     
+    color: #ffffff;   
+    
 }
 /* logo */
 div img{
     height:auto;
     width: 100px;
     position: absolute;
-    left: 50px;
-    top: 30px;
+    left: 80px;
+    top: 20px;
 }
 /* navbar  */
-.container {
+nav{
+    height: 10vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 32px 48px;
+    gap: 20px;
+    align-items: flex-start;   
+    justify-content: flex-start; 
 }
-.navbar{
-    display: flex;
+nav ul{
+    display: flex;  
+    gap: 50px;
+    padding-left: 200px;
+    margin-top: 20px;
 }
-.grow-list {
-    justify-content: center;
-    align-items: space-between;
-    padding: 20px 40px;
+
+/* navbar list  */
+nav ul li{
+    list-style-type: none;
+    padding-top: 5px;
 }
-.grow-list .list {
-    display: flex;
-    color: black;
-    padding-left: 4px;
-}
-.list-item{
-    text-decoration: none;
-    padding-left: 4px;
-}
-.list li {
-    text-decoration: none;
-    color: #b7b5b5;
-    align-items: start;
-    padding: 10px 20px;
+nav ul li:first-child::after{
+    content: "  \0002C7";
+    /* transform: rotate(90deg); */
+    position: relative;
+    height: 20px;
+    width: 10px;
+    top: 5px; 
 }
 .line{
     border: 1px solid #ffffff;
     position: relative;
-    left: 20px;
+    left: 200px;
     height: 50px;
+    top: 10px;
 }
+
 button{
-    background-color: #aa258f;
+    background-color: #b01aae;
     border-radius: 5px;
-    padding:15px 40px;
+    padding:10px 35px;
     color: #ffffff;
     border: 0;
-    cursor: pointer; 
+    cursor: pointer;
+    margin-top: -15px;
 }
 .button-small{
     position: absolute;
@@ -78,7 +82,7 @@ button{
 .hero{
     height: 90vh;
     width: 100vw;
-    background-image: url("images/background-image.png");
+    background-image: url('images/background-image.png');
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -90,28 +94,21 @@ button{
     
 }
 .hero-heading{
-    margin-top: 70px;
     font-size: 65px;
-    height: 30vh;
-    width: 50vw;
     text-align: center;
-    padding: 5px;
-    margin-bottom: 25px;
+}
+.hero-heading span {
+    display: block;
+    font-size: 65px;
+    text-align: center;
 }
 .hero-description{
-    margin-top: 45px;
     font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    height: 30%;
-    position: relative;
-    bottom: 10%;
    
 }
 .button-large{
     font-size: 30px;
     font-weight: 500;
-    position: relative;
-    bottom: 33%;
-    border-radius: 15px;
+    border-radius: 12px;
+    margin-top: 30px;
 }
