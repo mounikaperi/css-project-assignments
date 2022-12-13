@@ -1,0 +1,14 @@
+{
+  "name": "project-natours",
+  "version": "1.0.0",
+  "description": "Exciting tours for adventurous people",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Sai Mounika Peri",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,52 @@
+/* Browsers are optimized for opacity and transform properties for animations */
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+        /*positive to the right, negative to the left */
+    }
+
+    /* 60% {
+        tranform: rotate(180deg);
+    } */
+    80% {
+        transform: translateX(1rem);
+        /* moves to right */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+        /*positive to the right, negative to the left */
+    }
+
+    80% {
+        transform: translateX(-1rem);
+        /* moves to right */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInButton {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+        /*positive to the right/down, negative to the left/up */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
