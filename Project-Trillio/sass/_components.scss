@@ -344,11 +344,13 @@
         background-size: cover; //- older browsers
         background-image: url(../images/chevron-thin-right.svg);
         //Newer browsers - masks
-        background-color: var(--color-primary);
-        -webkit-mask-image: url(../images/chevron-thin-right.svg);
-        -webkit-mask-size: cover;
-        mask-image: url(../images/chevron-thin-right.svg);
-        mask-size: cover;
+        @supports (-webkit-mask-image: url()) or (mask-image: url()){
+            background-color: var(--color-primary);
+            -webkit-mask-image: url(../images/chevron-thin-right.svg);
+            -webkit-mask-size: cover;
+            mask-image: url(../images/chevron-thin-right.svg);
+            mask-size: cover;
+        }
     }
 }
 //Recommended
